@@ -4,7 +4,7 @@ export function getSiteConfig(env: Env, domain: string): SiteConfig | undefined 
     const configs: {[domain: string]: SiteConfig} = {
         'bucketdomain.example.com': {
             name: "Name of your website",
-            bucket: env.BUCKET_bucketname,
+            bucket: env.BUCKET_pub,
             desp: {
                 '/': "Description of your website at default",
                 '/path': "Description of your website at /path",
